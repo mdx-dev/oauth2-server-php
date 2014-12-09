@@ -46,7 +46,7 @@ interface AuthorizationCodeInterface
      *
      * @ingroup oauth2_section_4
      */
-    public function getAuthorizationCode($code);
+    //public function getAuthorizationCode($code);
 
     /**
      * Take the provided authorization code values and store them somewhere.
@@ -68,7 +68,7 @@ interface AuthorizationCodeInterface
      *
      * @ingroup oauth2_section_4
      */
-    public function setAuthorizationCode($code, $client_id, $user_id, $redirect_uri, $expires, $scope = null);
+    //public function setAuthorizationCode($code, $client_id, $user_id, $redirect_uri, $expires, $scope = null);
 
     /**
      * once an Authorization Code is used, it must be exipired
@@ -82,5 +82,5 @@ interface AuthorizationCodeInterface
      *    that authorization code
      *
      */
-    public function expireAuthorizationCode($code);
+    //public function expireAuthorizationCode($code);
 }
